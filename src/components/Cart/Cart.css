@@ -1,0 +1,21 @@
+.cart {
+  border: 2px solid #d70f64;
+  color: #d70f64;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.cart-dev {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #d70f64;
+  border-radius: 10px;
+}
+.cart-dev img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 60px;
+  margin-right: 5px;
+}
