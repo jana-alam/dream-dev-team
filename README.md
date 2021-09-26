@@ -1,15 +1,7 @@
-# Project Developer Selection Team
+# Hire Developers To Team
 
-This project was created with create-react-app provided by facebook. You will find the code organised. All of the componets are structured inside src folder.
+Check the live site on link: https://dream-dev-team.netlify.app/
 
-## favicon
-
-If you want to change the favicon then replace the favicon.ico from publc folder
-
-## Live Url
-
-This project deployed in netlify. You can check the website from here https://dream-dev-team.netlify.app/
-
-## How it works
-
-You have to select the developer as per your project requirement from the website and it will give you the cost needed per hour.
+- You can use this website to select developers as per your requirement where developers are hired on hourly basis
+- I have developed this project with create-react-app and vanilla css
+- When you select someone, you will find name & image on the cart and price to hire the developers you selected.

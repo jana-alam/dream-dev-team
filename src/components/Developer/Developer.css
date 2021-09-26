@@ -33,6 +33,7 @@
   background-color: #d70f64;
   cursor: pointer;
   margin: 5px 0 10px 0;
+  box-shadow: 0 0 10px 0 black;
 }
 .hire-btn:hover {
   color: #d70f64;
