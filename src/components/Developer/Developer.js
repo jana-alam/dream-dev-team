@@ -2,6 +2,7 @@ import React from "react";
 import "./Developer.css";
 
 const Developer = (props) => {
+  // received data from Main
   const { developer, handleHireNow } = props;
   const { avatar, name, email, hourly_charge, specialist, times_hired } =
     developer;
@@ -18,7 +19,7 @@ const Developer = (props) => {
         <p className="hire-times">{times_hired} times hired</p>
       </div>
       <button onClick={() => handleHireNow(developer)} className="hire-btn">
-        Hire Now <i className="fas fa-user-plus"></i>
+        HIRE NOW <i className="fas fa-user-plus"></i>
       </button>
     </div>
   );

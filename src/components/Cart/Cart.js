@@ -1,4 +1,5 @@
 import React from "react";
+import Item from "../Item/Item";
 import "./Cart.css";
 
 const Cart = (props) => {
@@ -10,15 +11,10 @@ const Cart = (props) => {
   return (
     <div className="cart">
       <h2>Your Team Member</h2>
-      <h3>Selected: {developers.length} Developers</h3>
-      {developers.map((dev) => {
-        return (
-          <div className="cart-dev">
-            <img src={dev.avatar} alt="" />
-            <p>{dev.name}</p>
-          </div>
-        );
-      })}
+      <h3>{developers.length} Developers</h3>
+      {developers.map((dev) => (
+        <Item key={dev.id} dev={dev}></Item>
+      ))}
       <h3>Total Charge / Hour: ${total.toFixed(2)}</h3>
     </div>
   );
