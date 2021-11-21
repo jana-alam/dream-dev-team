@@ -1,6 +1,6 @@
 # Hire Developers To Build Team
 
-Check the live site on link: https://dream-dev-team.netlify.app/
+live site link: https://dream-dev-team.netlify.app/
 
 - You can use this website to select developers as per your requirement where developers are hired on hourly basis
 - I have developed this project with create-react-app and vanilla css
